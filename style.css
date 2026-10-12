@@ -1,6 +1,6 @@
 body{ background:pink; font-family:Arial; margin:0; padding:20px; }
 .container{ max-width:700px; margin:auto; background:white; border-radius:15px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
 .header{ background:#ff69b4; color:white; text-align:center; padding:30px; }
-.foto{ width:150px; height:150px; border-radius:0%; border:5px solid white; object-fit:cover; }
+.foto{ width:150px; height:150px; border-radius:0%; border:5px solid white; object-fit:cover; filter:grayscale (100% ); }
 .content{ padding:20px 30px; }
 h2{ color:#ff69b4; border-bottom:2px solid #ff69b4; }
