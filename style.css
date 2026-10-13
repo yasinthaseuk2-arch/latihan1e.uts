@@ -142,3 +142,17 @@ button:hover {
 	color: #666666;
 	margin-top: 30px;
 }
+
+.grid-informasi{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card{
+  flex: 1;
+  border: 1.5px solid #2c3e80;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #eef5ff;
+}
