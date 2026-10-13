@@ -151,16 +151,16 @@ button:hover {
 
 .card{
   flex: 1;
-  border: 1.5px solid #2c3e80;
+  border: 1.5px solid pink;
   border-radius: 12px;
   padding: 20px;
-  background-color: #eef5ff;
+  background-color: pink;
 }
 
 .card-matkul{
 	margin-top:30px;
-    border: 1.5px solid #2c3e80;
+    border: 1.5px solid pink;
     border-radius: 12px;
     padding: 20px;
-    background-color: #eef5ff
+    background-color: pink;
 	
