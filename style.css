@@ -1,6 +1,144 @@
-body{ background:pink; font-family:Arial; margin:0; padding:20px; }
-.container{ max-width:700px; margin:auto; background:white; border-radius:15px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-.header{ background:#ff69b4; color:white; text-align:center; padding:30px; }
-.foto{ width:150px; height:150px; border-radius:0%; border:5px solid white; object-fit:cover; filter:grayscale (100% ); }
-.content{ padding:20px 30px; }
-h2{ color:#ff69b4; border-bottom:2px solid #ff69b4; }
+.foto{
+	width: 150px;
+	height: 180px;
+	object-fit: cover;
+	display: block;
+	margin: 20px auto 10px auto;
+}
+
+h1,h2,h3,p,li,td{
+	transition: o.3s;
+}
+h1:hover,h2:hover,h3:hover,p:hover,li:hover,td:hover{
+	transform: translateX(10px);
+}
+th{
+	background-color: pink;
+	color: white;
+}
+.judul-identitas{
+	margin-left: 100px;
+}
+
+body {
+
+	background-color: pink;
+
+	font-family: Arial, sans-serif;
+
+	color: #000000;
+
+	margin: 0;
+
+	padding: 0;
+}
+.container {
+
+	width: 80%;
+
+	margin: 30px auto;
+
+	padding: 30px;
+
+	background-color: white;
+}
+
+
+h1 {
+	color: darkblue;
+
+	text-align:  center;
+
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: darkblue;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	
+}
+p{
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: justify;
+}
+
+.identitas{
+	width: 100%;
+}
+.kolom-foto{
+	vertical-align: top;
+	padding-right: 30px;
+}
+.kolom-identitas{
+	vertical-align: top;
+}
+.foto-profil{
+	width: 142px;
+	border: 3px solid #00509e;
+	padding: 5px;
+}
+.data-identitas td{
+	padding: 5px;
+}
+
+.tabel-matakuliah th{
+	background-color: #00509e;
+	color: white;
+	padding: 10px;
+	border: 1px solid #cccccc;
+}
+
+.tabel-matakuliah td{
+	padding: 10px;
+	border: 1px solid #cccccc;
+}
+
+
+a{
+	color: #0066cc;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+form {
+	background-color: f1f5f9;
+	padding: 20px;
+	margin-top: 20px;
+	border: 1px solid #cccccc;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button {
+	background-color: #00509e;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #003366;
+}
+.footer {
+	text-align: center;
+	color: #666666;
+	margin-top: 30px;
+}
